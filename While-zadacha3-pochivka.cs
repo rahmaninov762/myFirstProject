@@ -1,3 +1,4 @@
+//this is a simple program that uses while loop
 double neededMoney = double.Parse(Console.ReadLine());
 double availableMoney = double.Parse(Console.ReadLine());
 bool spend = false; int count = 0; int countDay = 0;
