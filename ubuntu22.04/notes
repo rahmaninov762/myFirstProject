@@ -1,1 +1,72 @@
+                      * * *	To make ssh connection between the containers without the password: * * *
+#---------------------------------------------------------------------
+#
+#	1. Log in to the container
+#	2. as root user change the password of ubuntu user
+#		~# passwd ubuntu
+#		~# type NEW password for ubuntu user:
+#		~# retype the password for ubuntu user:
+#	3. as ubuntu user generate the ssh key
+#	4. as ubuntu user copy the ssh id to other container
+#	5. finally you can ssh to other container w/o the password
+#---------------------------------------------------------------------
 
+                                * * * wordpress container- manual * * *
+#
+#
+#
+# link to online manual:
+# https://www.digitalocean.com/community/tutorials/install-wordpress-nginx-ubuntu
+#
+#
+#
+#
+
+#--------------------------------------------------------------------------------------------------------------
+# IN ORDER TO INSTALL OLDER VERSIONS OF PHP FIRST WE ADD TO REPOSITORY << ONDREJ/PHP >>
+$ sudo apt install software-properties-common ca-certificates lsb-release apt-transport-https
+$ LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php
+$ sudo apt update
+#--------------------------------------------------------------------------------------------------------------
+
+
+#--------------------------------------------------------------------------------------------------------------
+MariaDB [mysql]> CREATE DATABASE wordpress_db;
+MariaDB [mysql]> GRANT ALL ON wordpress_db.* TO 'wpuser'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+#--------------------------------------------------------------------------------------------------------------
+
+
+#--------------------------------------------------------------------------------------------------------------
+inside wp-config.php
+#--------------------------------------------------------------------------------------------------------------
+define('AUTH_KEY',         'M.9liLy|FlwI30vkO{|ysVm~G)GS!*dh@5onC#$RGSpP8U&+uULc6D1;C]UUf0<C');
+define('SECURE_AUTH_KEY',  'r7/%DR|s<QSDwNU`,/ScG*`YdasgCHoNN;3Syb YpcW+,5,82Sc*54%kT] V ^kK');
+define('LOGGED_IN_KEY',    'Qa]cW!0~[=X[l#yZ+EeqaVjxR`R,|#7X5-J*h;&,cl|ol2b 1Zo-v6l8vIJ)-~Xt');
+define('NONCE_KEY',        '93C%sLzxiyaI|Vg&].Iw5!kXBC&&&BtJL{1UER~FJD}=a9n-DBN[mAes9x,+HTCS');
+define('AUTH_SALT',        '1mV_*< aoI|BA|0yw!z3{RmQ:#yESi9Ls/D6Oq=g1BP5dsX.k1xSv``w8WFfFl;d');
+define('SECURE_AUTH_SALT', 'M~hf4#(nzFTsC6OTi]ePO|wPU-sfThn|:PyY,e9zOp~ISvnlUJv?c)%LOxGVOEP(');
+define('LOGGED_IN_SALT',   'M}3AacV^,ePj B8-2cIQ^*,ofQ~d6)yJ%_KIZm7U>]meQ$}Vu(#mi3H|;ke/T+;n');
+define('NONCE_SALT',       'gc^OjZ>/Tni_t!n&5w>__q1#6Yp4aU,b6+IO[ 54p</f,&4TGY6V 8U57Gcd1`k(');
+#--------------------------------------------------------------------------------------------------------------
+
+
+
+#--------------------------------------------------------------------------------------------------------------
+on line 60 inside /etc/nginx/nginx.conf
+#--------------------------------------------------------------------------------------------------------------
+change
+include /etc/nginx/sites-enabled/default;
+
+to
+include /etc/nginx/sites-enabled/wordpress.conf;
+#--------------------------------------------------------------------------------------------------------------
+
+
+#--------------------------------------------------------------------------------------------------------------
+wordpress installation form username and password
+#--------------------------------------------------------------------------------------------------------------
+site title: school-site
+username: admin
+password: admin
+email: fnrc1@yahoo.com
+#--------------------------------------------------------------------------------------------------------------
