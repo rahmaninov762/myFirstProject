@@ -13,10 +13,12 @@ foreach (int x in numbersList)
 }
 
 int[] stringArray = new int[numbersList.Count];
-for (int i = 0; i < stringArray.Length; i++)
-{
-    stringArray[i] = numbersList[i];
-}
+stringArray = numbersList.ToArray();
+
+//for (int i = 0; i < stringArray.Length; i++)
+//{
+//   stringArray[i] = numbersList[i];
+//}
 Console.WriteLine();
 for (int b = 0; b < stringArray.Length; b++)
 {
