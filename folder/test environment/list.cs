@@ -19,6 +19,7 @@ stringArray = numbersList.ToArray();
 //{
 //   stringArray[i] = numbersList[i];
 //}
+//
 Console.WriteLine();
 for (int b = 0; b < stringArray.Length; b++)
 {
