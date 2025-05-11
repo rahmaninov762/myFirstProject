@@ -21,6 +21,7 @@ stringArray = numbersList.ToArray();
 //}
 //
 Console.WriteLine();
+Console.WriteLine("-------------------------");
 for (int b = 0; b < stringArray.Length; b++)
 {
     Console.Write($"{stringArray[b]} ");
