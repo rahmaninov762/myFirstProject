@@ -1,4 +1,4 @@
-// Test of arrays
+// Test of arrays 
 
 Console.WriteLine("Input a number from 1 to 10");
 int num = int.Parse(Console.ReadLine());
