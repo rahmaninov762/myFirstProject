@@ -1,4 +1,5 @@
 //
+
 int[] inputArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
 bool isCondensed = false;
 
