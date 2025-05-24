@@ -25,5 +25,3 @@ while (!isCondensed)
         inputArray = temp;
     }
 }
-//
-//
