@@ -1,5 +1,4 @@
 //
-//
 int n = int.Parse(Console.ReadLine());
 int[] numbers = new int[n];
 
