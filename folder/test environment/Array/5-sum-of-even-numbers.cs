@@ -1,4 +1,3 @@
-//
 int[] inputNumbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
 int sum = 0;
 
