@@ -1,4 +1,5 @@
 //
+//
 int[] inputNumbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
 int sumEven = 0;
 int sumOdd = 0;
