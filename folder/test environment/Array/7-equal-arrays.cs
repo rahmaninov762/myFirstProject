@@ -1,4 +1,4 @@
-//
+
 int[] firstArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
 int[] secondArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
 bool areEqual = true;
