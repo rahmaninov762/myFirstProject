@@ -1,4 +1,3 @@
-//
 string[] inputString = Console.ReadLine().Split().ToArray();
 string[] reverseString = inputString.Reverse().ToArray();
 
