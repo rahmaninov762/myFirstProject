@@ -1,4 +1,4 @@
-
+//
 double[] inputNumbers = Console.ReadLine().Split(' ').Select(double.Parse).ToArray();
 double tempNumber = 0;
 
