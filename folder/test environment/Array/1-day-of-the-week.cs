@@ -1,5 +1,4 @@
-//
-//
+
 int num = int.Parse(Console.ReadLine());
 string[] dayOfWeek = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
 
