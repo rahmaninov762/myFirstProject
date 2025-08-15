@@ -1,0 +1,16 @@
+[root@barbara:/home/popol]# lxc-ls -f
+NAME             STATE   AUTOSTART GROUPS IPV4       IPV6 UNPRIVILEGED 
+database         STOPPED 0         -      -          -    false        
+gemini-wordpress STOPPED 0         -      -          -    false        
+nagios-chat      STOPPED 0         -      -          -    false        
+nagios3          STOPPED 0         -      -          -    false        
+router           STOPPED 0         -      -          -    false        
+test-mashine     RUNNING 0         -      10.0.3.100 -    false        
+wordpress        RUNNING 0         -      10.0.3.20  -    false        
+wordpress2       RUNNING 0         -      10.0.3.21  -    false 
+
+
+---------------------------------------------------------------------------
+Notes:
+wordpress -> copy of my own of the school site
+wordpress2 -> empty installation of wordpress 
