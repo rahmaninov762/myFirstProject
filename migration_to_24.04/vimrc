@@ -1,0 +1,17 @@
+/etc/vim/vimrc
+
+#just to be safe -- >> make a copy of the original vimrc file to "vimrc-backup"
+#add at the end of the file
+
+
+" Source a global configuration file if available
+if filereadable("/etc/vim/vimrc.local")
+  source /etc/vim/vimrc.local
+endif
+set number
+set mouse=a
+colors industry
+
+call plug#begin()
+Plug 'preservim/NERDTree'
+call plug#end()
