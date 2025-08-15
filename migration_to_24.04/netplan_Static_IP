@@ -1,0 +1,16 @@
+network:
+#  version: 2
+#  ethernets:
+#    eth0:
+#      dhcp4: true
+#      dhcp-identifier: mac
+  version: 2
+  ethernets:
+    eth0:
+      addresses:
+        - 10.0.3.100/24
+      nameservers:
+        addresses: [4.2.2.2, 8.8.8.8]
+      routes:
+        - to: default
+          via: 10.0.3.1
