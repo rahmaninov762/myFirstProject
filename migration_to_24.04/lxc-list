@@ -1,3 +1,4 @@
+---------------------------------------------------------------------------
 [root@barbara:/home/popol]# lxc-ls -f
 NAME             STATE   AUTOSTART GROUPS IPV4       IPV6 UNPRIVILEGED 
 database         STOPPED 0         -      -          -    false        
