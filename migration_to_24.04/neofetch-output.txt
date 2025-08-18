@@ -1,0 +1,29 @@
+popol@barbara:~$ neo
+neofetch  neotoppm  
+popol@barbara:~$ neofetch 
+           `.:/ossyyyysso/:.               popol@barbara 
+        .:oyyyyyyyyyyyyyyyyyyo:`           ------------- 
+      -oyyyyyyyodMMyyyyyyyysyyyyo-         OS: Kubuntu 22.04.5 LTS x86_64 
+    -syyyyyyyyyydMMyoyyyydmMMyyyyys-       Host: 80NV Lenovo ideapad Y700-15ISK 
+   oyyysdMysyyyydMMMMMMMMMMMMMyyyyyyyo     Kernel: 6.8.0-65-generic 
+ `oyyyydMMMMysyysoooooodMMMMyyyyyyyyyo`    Uptime: 4 hours, 43 mins 
+ oyyyyyydMMMMyyyyyyyyyyyysdMMysssssyyyo    Packages: 3716 (dpkg), 24 (snap) 
+-yyyyyyyydMysyyyyyyyyyyyyyysdMMMMMysyyy-   Shell: bash 5.1.16 
+oyyyysoodMyyyyyyyyyyyyyyyyyyydMMMMysyyyo   Resolution: 1920x1080, 1920x1080 
+yyysdMMMMMyyyyyyyyyyyyyyyyyyysosyyyyyyyy   DE: Plasma 5.24.7 
+yyysdMMMMMyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy   WM: KWin 
+oyyyyysosdyyyyyyyyyyyyyyyyyyydMMMMysyyyo   Theme: [Plasma], Breeze [GTK2/3] 
+-yyyyyyyydMysyyyyyyyyyyyyyysdMMMMMysyyy-   Icons: [Plasma], breeze [GTK2/3] 
+ oyyyyyydMMMysyyyyyyyyyyysdMMyoyyyoyyyo    Terminal: konsole 
+ `oyyyydMMMysyyyoooooodMMMMyoyyyyyyyyo     Terminal Font: Monospace 11 
+   oyyysyyoyyyysdMMMMMMMMMMMyyyyyyyyo      CPU: Intel i7-6700HQ (8) @ 3.500GHz 
+    -syyyyyyyyydMMMysyyydMMMysyyyys-       GPU: NVIDIA GeForce GTX 960M 
+      -oyyyyyyydMMyyyyyyysosyyyyo-         GPU: Intel HD Graphics 530 
+        ./oyyyyyyyyyyyyyyyyyyo/.           Memory: 2157MiB / 15820MiB 
+           `.:/oosyyyysso/:.`
+                                                                   
+                                                                   
+
+
+popol@barbara:~$ 
+
