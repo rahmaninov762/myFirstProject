@@ -1,0 +1,13 @@
+cat instruction_to_run_C#_scripts.txt
+#
+#
+#
+#       1. write the code in a file
+#       2. mcs name_of_file.cs
+#       3. mono name_of_file.exe
+#
+#
+#
+#
+#
+#
