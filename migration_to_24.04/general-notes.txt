@@ -5,4 +5,7 @@ https://www.youtube.com/watch?v=bT4gyHzuKvA
 
 -----------------------------------------------
 1. set static ip address to vm-s
+2. change colors in bashrc
+
+
 
