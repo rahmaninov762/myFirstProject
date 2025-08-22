@@ -9,5 +9,5 @@ https://www.youtube.com/watch?v=bT4gyHzuKvA
 
 
 3. installation of nginx
-
+4. installation of mariadb
 
