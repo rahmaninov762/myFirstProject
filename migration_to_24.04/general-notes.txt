@@ -8,4 +8,6 @@ https://www.youtube.com/watch?v=bT4gyHzuKvA
 2. change colors in bashrc
 
 
+3. installation of nginx
+
 
