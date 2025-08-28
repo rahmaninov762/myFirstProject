@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=bT4gyHzuKvA
 06:16 -->> quick gui software for VMs
 
 -----------------------------------------------
---
+---
 1. set static ip address to vm-s
 2. change colors in bashrc
 
