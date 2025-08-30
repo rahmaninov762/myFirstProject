@@ -13,3 +13,4 @@ https://www.youtube.com/watch?v=bT4gyHzuKvA
 4. installation of mariadb
 5.
 6.
+7.
